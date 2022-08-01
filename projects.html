@@ -8,22 +8,21 @@
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
     </head>
     <body>
-        <div id="nav">
-            <h1>Daniel Ng</h1>
-            <p>
+        <header>
+            <h1><a href="index.html">Daniel Ng</a></h1>
+            <nav>
                 <a href="index.html">Home</a>
+                <a href="career.html">Experience</a>
                 <a href="education.html">Education</a>
                 <a href="projects.html">Projects</a>
-                <a href="career.html">Work Experience</a>
-            </p>
-        </div>
+            </nav>
+        </header>
 
-        <h1>Projects</h1>
+        <h1 class="mainheader">Projects</h1>
 
         <div class="left content">
-            <img src="img/velox.svg" />
+            <img src="img/velox.svg" class="whitebg" />
             <h2>Velox</h2>
-
             <p>
                 Velox is an open-source vectorized database acceleration library
                 that I contributed to during my time at Meta.
@@ -34,7 +33,6 @@
         <div class="right content">
             <img src="img/proxy.png" />
             <h2>Proxy Server</h2>
-
             <p>
                 A proxy server made for CMU's 15-213 class that supports
                 multithreading and caches recent results.
@@ -44,7 +42,6 @@
         <div class="left content">
             <img src="img/malloc.png" />
             <h2>Dynamic Memory Allocator</h2>
-
             <p>
                 My own implementation of the stdlib malloc, calloc, and free
                 functions that outperforms the library implementations, made for
@@ -55,7 +52,6 @@
         <div class="right content">
             <img src="img/rat.png" />
             <h2>Blood Vessel Velocity Tool</h2>
-
             <p>
                 A tool made in Python designed to take a frame of an ultrasound
                 scan and allow researchers to determine the velocity of blood
@@ -66,7 +62,6 @@
         <div class="left content">
             <img src="img/tsa.png" />
             <h2>EduTalk</h2>
-
             <p>
                 EduTalk is a centralized message board, calendar, and assignment
                 software designed for schools. Earned 5th place at the Technology
@@ -77,9 +72,9 @@
         <div class="right content">
             <img src="img/minotaur.png" />
             <h2>Hunt the Minotaur</h2>
-
             <p>
-                A Greek mythology-themed "Hunt the Wumpus" game made in Unity.
+                A Greek mythology-themed "Hunt the Wumpus" game made in Unity
+                during my sophomore year of high school.
                 The game won the runner-up award at an annual contest held at
                 Microsoft.
             </p>
@@ -88,7 +83,6 @@
         <div class="left content">
             <img src="img/studylink.png" />
             <h2>StudyLink</h2>
-
             <p>
                 StudyLink is a social media application to help students find nearby
                 study groups that earned my team 4th place at the TSA National
@@ -96,12 +90,21 @@
             </p>
         </div>
 
-        <div id="footer">
+        <footer>
             <p>
-            <a href="https://www.linkedin.com/in/danielzkng/">LinkedIn</a>
-            <a href="https://github.com/danielzkng">GitHub</a>
-            <a href="resume.pdf">Resume</a>
+            <a href="mailto:danielzkng0@gmail.com">
+                <img src="img/icons/mail.svg" title="Email" alt="Email" class="icon" />
+            </a>
+            <a href="https://www.linkedin.com/in/danielzkng/">
+                <img src="img/icons/linkedin.svg" title="LinkedIn" alt="LinkedIn" class="icon" />
+            </a>
+            <a href="https://github.com/danielzkng">
+                <img src="img/icons/github.svg" title="GitHub" alt="GitHub" class="icon" />
+            </a>
+            <a href="resume.pdf">
+                <img src="img/icons/resume.svg" title="Resume" alt="Resume" class="icon" />
+            </a>
             </p>
-        </div>
+        </footer>
     </body>
 </html>

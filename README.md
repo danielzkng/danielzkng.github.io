@@ -1,3 +1,3 @@
 # danielzkng.github.io
 
-Currently a work-in-progress website, check back soon!
+A basic profile website built in HTML and CSS in August 2022.

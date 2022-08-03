@@ -6,15 +6,22 @@
         <link rel="stylesheet" href="https://use.typekit.net/kwf1fnc.css">
         <link rel="stylesheet" href="style.css" />
         <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="menubar.js"></script>
     </head>
     <body>
-        <header>
-            <h1><a href="index.html">Daniel Ng</a></h1>
+        <header class="navi" id="navbar">
+            <h1 id="homelink"><a href="index.html">Daniel Ng</a></h1>
+            <h1 id="plaintitle">Daniel Ng</h1>
+            <a href="javascript:void(0);" class="menu" onclick="showNavi()">
+                <img src="img/icons/menu.svg" />
+            </a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="career.html">Experience</a>
-                <a href="education.html">Education</a>
-                <a href="projects.html">Projects</a>
+
+                <a href="index.html" class="page">Home</a>
+                <a href="career.html" class="page">Experience</a>
+                <a href="education.html" class="page">Education</a>
+                <a href="projects.html" class="page">Projects</a>
             </nav>
         </header>
 
